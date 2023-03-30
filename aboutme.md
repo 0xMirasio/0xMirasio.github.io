@@ -11,3 +11,4 @@ Je fais du reverse/tooling.
 
 Tel : 0686205844  
 email pro : thibault.poncetta@protonmail.com  
+discord : Mirasio#6924
