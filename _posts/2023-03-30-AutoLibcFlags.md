@@ -20,8 +20,8 @@ Feel free to pull requests to add new functions.
 
 ## Preview
 <p align="center">
-  <img src="./assets/img/autoresolv/before.png" width="350" title="before execution">
-  <img src="./assets/img/autoresolv/output.png" width="450" title="after execution">
+  <img src="/assets/img/autolibcflags/before.png" width="350" title="before execution">
+  <img src="/assets/img/autolibcflags/output.png" width="450" title="after execution">
 </p>
 
 ## Install 

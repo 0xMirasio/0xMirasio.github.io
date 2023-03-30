@@ -16,15 +16,15 @@ You want to know what parameters are actually used in the signature of the exter
 
 Then AutoResolv can be useful.
 
-!["AutoResolv"](./assets/img/autoresolv/nojump.png "no jump on external function").
+!["AutoResolv"](/assets/img/autoresolv/nojump.png "no jump on external function").
 
-AutoResolv will give you those informations : 
+AutoResolv will give you those informations :
 
-- Create a window Result that will contain function_name | libcustom.so | path of libcustom | [optional parameters]
-- Create a comment specifying the name of the implementing library is the wrapper and cross-reference the origin of the function
-- Import function signature from custom libraries and refactor the function call type inside the binary
-- See libraries that are linked to binary
-
+* Create a window Result that will contain function_name | libcustom.so | path of libcustom | [optional parameters]  
+* Create a comment specifying the name of the implementing library is the wrapper and cross-reference the origin of the function  
+* Import function signature from custom libraries and refactor the function call type inside the binary  
+* See libraries that are linked to binary  
+ 
 AutoResolv use db caching for optimisation. You can clear the cache at any time if you want to resolve new data or clear old data.
 
 #### Architecture supported : x86-64, x86, Mips, PowerPC, ARM, aarch64. 
@@ -71,9 +71,9 @@ python.exe -m pip install pyqt5 pyelftools
 then copy AutoResolv.py and libautoresolv in ```C:\Users\[USER]\AppData\Roaming\Hex-Rays\plugins\```
 
 
-# Usage 
+# Usage
 
-AutoResolv can be used on a single binary. But if you want to use Export/Import functionnality, you must open another instance of the libcustom.so | libcustom2.so, ... and press Export buttons. Choose the main binary database of your project and then confirm. 
+AutoResolv can be used on a single binary. But if you want to use Export/Import functionnality, you must open another instance of the libcustom.so | libcustom2.so, etc and press Export buttons. Choose the main binary database of your project and then confirm. 
 
 When this is done, just click Import on main binary and AutoResolv will refactor wrapper and Xrefs with the function signature of the customlib.
 
