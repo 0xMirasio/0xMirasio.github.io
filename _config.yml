@@ -15,7 +15,7 @@ author: thibault poncetta
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Malware sample : "https://0xMirasio.github.io/samples/"
+    - Malware sample : "https://0xMirasio.github.io/samples/list.html"
 
 # --- Logo --- #
 

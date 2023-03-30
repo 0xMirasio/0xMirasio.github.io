@@ -1,2 +1,0 @@
-
-- [Test](/samples/test)
