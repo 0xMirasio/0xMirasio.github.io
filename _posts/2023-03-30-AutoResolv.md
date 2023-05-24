@@ -43,7 +43,6 @@ AutoResolv will look for libraries from original binary. If the linked libraries
 
 !["AutoResolv"](/assets/img/autoresolv/preview.png "AutoResolv preview").
 
-
 !["AutoResolv"](/assets/img/autoresolv/patched.png "Example of a wrapper patched by AutoResolv").
 
 
