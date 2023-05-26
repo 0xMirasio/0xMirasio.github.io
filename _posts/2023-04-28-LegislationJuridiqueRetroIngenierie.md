@@ -60,16 +60,7 @@ Je vais essayer de montrer comment procéder pour les 2 cas : propriétaire et o
 Contexte : vous êtes un chercheur en entreprise ou un particulier qui découvre une vulnérabilité dans un logiciel propriétaire dont vous possèder la license.
 Dans ce contexte, le chercheur doit se conformer à la loi française sur la protection des secret d'affaires. La divulgation des secrets d'affaires est interdite et peut être sanctionnée pénalement. 
 
-**Edit : L2323-1-2 n'est pas valide désolé de l'erreur.**
-
-~En France, il existe en effet une loi qui permet à un chercheur, sous certaines conditions, de publier la vulnérabilité après avoir notifié le prestataire concerné. Il s'agit de la loi **République numérique de 2016**, qui a introduit l'article **L2323-1-2** dans le Code de la défense.~
-
-~Cet article prévoit que les personnes qui découvrent une vulnérabilité dans un système d'information peuvent la notifier à l'opérateur du système concerné. Si l'opérateur ne répond pas dans un délai de trois mois, ou s'il répond mais ne prend pas les mesures nécessaires pour remédier à la vulnérabilité, la personne concernée peut alors la divulguer publiquement.~
-
-~IMPORTANT, cette disposition légale ne s'applique pas aux **opérateurs d'importance vitale ou aux opérateurs de service essentiel**, qui sont régis par les dispositions de l'article L151-1 du Code de la sécurité intérieure. Il est donc important de vérifier le statut de l'opérateur concerné avant de publier une vulnérabilité.~
-
-~En outre il est possible de pouvoir diffuser des recherches sur une vulnérabilité trouvé, même si l'entreprise contacté refuse. 
-Cependant, il faut faire très attention au contrat de license du logiciel.~
+**Edit : L2323-1-2 n'est pas valide désolé de l'erreur. Je n'ai pas d'info pour les logiciels propriétaires**
 
 Pour les logiciels open source, les conditions de divulgation peuvent varier en fonction de la licence sous laquelle le logiciel est publié.
 
