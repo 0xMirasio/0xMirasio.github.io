@@ -14,7 +14,7 @@ source du chall : https://hex-rays.com/blog/free-madame-de-maintenon-ctf-challen
 
 ## Analyse du binaire
 
-Le binaire est un éxecutable Linux 6bit. On peut remarquer l'utilisation de **libSDL2** qui est une lib de rendu d'image.
+Le binaire est un éxecutable Linux 64bit. On peut remarquer l'utilisation de **libSDL2** qui est une lib de rendu d'image.
 Le challenge est un crackme dont le mot de passe est prit en argument du programme. 
 Après analyse du code on a : 
 
