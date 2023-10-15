@@ -2,7 +2,7 @@
 layout: post
 title: Writeup Ctf Hexrays madame de Maintenon
 subtitle: Quelqu'un à dit goodies?
-tags: [reverse]
+tags: [reverse, angr]
 comments: true
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Writeup DUCTF MsFlagChecker
 subtitle: z3 time
-tags: [reverse]
+tags: [reverse, z3]
 comments: true
 ---
 
