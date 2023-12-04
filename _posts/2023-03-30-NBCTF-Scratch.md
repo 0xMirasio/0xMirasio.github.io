@@ -1,12 +1,12 @@
 ---
 layout: post
-title: NBCTF 2023 - Stratch
+title: NBCTF 2023 - Itchy Scratchy
 subtitle: du reverse exotique
 tags: [reverse, z3, scratch]
 comments: true
 ---
 
-### Scratch NBCTF 2023
+### Itchy Scratchy NBCTF 2023
 
 Ce challenge est le 2ème de la catégorie rev du NBCTF 2023. (très bonne surprise ce ctf)
 
@@ -90,4 +90,4 @@ A noter également que pour des raisons magnifiques, scratch qui est un language
 
 On obtient finalement : nbctf{12lett3rf149}
 
-
+Il est possible également d'utiliser https://leopardjs.com/ pour convertir le projet scratch en JS, ce peut donner une bien meilleure visibilité du code.
