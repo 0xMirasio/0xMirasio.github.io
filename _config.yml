@@ -14,6 +14,9 @@ author: thibault poncetta
 
 navbar-links:
   About Me: "aboutme"
+  Resources:
+    - CTF Binaries : "samples"
+
 
 # --- Logo --- #
 
