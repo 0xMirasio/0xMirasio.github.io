@@ -14,13 +14,13 @@ On nous fournit un fichier : usb.pcapng
 
 un premier coup d'oeil révele que le pcap est un dump USB entre un device extérieur et le pc. 
 
-!["Main"](/assets/img/posts/gcc/usb.PNG "Wireshark")
+!["Main"](/assets/img/posts/gcc/usb.png "Wireshark")
 
 Les premiers paquets **GET DESCRIPTOR** permettent de récupérer un IdVendor et un IdProduct du device extérieur : 0x9563 est un smart card reader, on peut trouver cette information dans :
 
 https://github.com/linuxhw/LsUSB
 
-!["Main"](/assets/img/posts/gcc/idproduct.PNG "IdProduct")
+!["Main"](/assets/img/posts/gcc/idproduct.png "IdProduct")
 
 On peut lire également que ce smart card reader utilise EVM.
 
@@ -30,14 +30,14 @@ On peut lire également que ce smart card reader utilise EVM.
 On a le protocole USB en tout premier pour communiquer avec les devices. 
 On peut utiliser le CCID également pour afficher des requêtes USB plus précise : 
 
-!["Main"](/assets/img/posts/gcc/decode.PNG "Decode as")
+!["Main"](/assets/img/posts/gcc/decode.png "Decode as")
 
 Cela nous permet d'afficher des requêtes USB plus précise, on sait également que les smard card reader utilise souvent l'iso 7816 pour communiquer avec l'interface USB. 
 On peut mettre donc CCID.payload en iso 7816 sur wireshark.
 
 Ce qui donne : 
 
-!["Main"](/assets/img/posts/gcc/usb2.PNG "Wireshark")
+!["Main"](/assets/img/posts/gcc/usb2.png "Wireshark")
 
 # Evm
 
@@ -98,6 +98,6 @@ https://emvlab.org/tlvutils/?data=7081a857135132630040615951d2302201695087690000
 
 Cela permet de dumper les 2 informations nécéssaires au challenge : 
 
-!["Main"](/assets/img/posts/gcc/sol.PNG "EVMLab")
+!["Main"](/assets/img/posts/gcc/sol.png "EVMLab")
 
 On peut donc récupérer le numéro de la mastercard : 5132630040615951 ainsi que sa date d'expiration : 02/23
