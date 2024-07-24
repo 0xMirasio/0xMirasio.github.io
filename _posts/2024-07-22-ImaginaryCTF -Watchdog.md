@@ -56,9 +56,9 @@ def evalPoly(flagVec, index):
     return s
 ```
 
-So the binary compute a result of a polynomial with coefficients the flag value. 
+Donc le binaire compute le résultat d'un polynome avec les octets du flag comme coefficient 
 
-We can implement a small z3 solve script to find the good flag value. 
+On peut implémenter un petit script z3 pour trouver le flag : 
 
 # solve
 
@@ -96,10 +96,10 @@ def solve_flag(answer):
     solver = Solver()
     
     flag_length = 43
-    # we need 64bitvector here. 8bit will be overflow with mul with my_pow
+    #64 bit vector requis, 8bit va se faire overflow avec my_pow
     flag_vars = [BitVec(f'f{i}', 64) for i in range(flag_length)]
     
-    #z3 optimisation for fast flag finding
+    #z3 optimisation
     for var in flag_vars:
         solver.add(var >= 30)
         solver.add(var <= 127)
