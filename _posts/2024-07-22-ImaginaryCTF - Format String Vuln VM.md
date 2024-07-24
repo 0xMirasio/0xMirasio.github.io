@@ -36,7 +36,7 @@ analysons donc les fonctions du programme :
 
 !["Main"](/assets/img/posts/imaginaryctf2024/printf_handler.png "vm handler")
 
-On remarque que certaines fonctions sont appelé de manière regulière, tout initialisé via cette fonction. La plupart de ces fonctions utilise une zone mémoire pour faire leur opérations + un dword sert de compteur pour positionner les opérations sur la mémoire. Cela nous fait penser à une VM... 
+On remarque que certaines fonctions sont appelé de manière regulière, toute initialisé via cette fonction. La plupart de ces fonctions utilise une zone mémoire pour faire leur opérations + un dword sert de compteur pour positionner les opérations sur la mémoire. Cela nous fait penser à une VM... 
 
 !["Main"](/assets/img/posts/imaginaryctf2024/printf_meme.jpg "oui")
 
