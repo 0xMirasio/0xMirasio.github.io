@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ImaginaryCTF 2024 - Watchdog
-subtitle: Linux Command injection
+subtitle: Poly computing
 tags: [reverse, z3]
 comments: true
 ---
