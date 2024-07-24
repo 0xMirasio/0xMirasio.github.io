@@ -2,7 +2,7 @@
 layout: post
 title: ImaginaryCTF 2024 - SVM Revenge
 subtitle: custom encryptor
-tags: [reverse, crypto]
+tags: [reverse, crypto, z3]
 comments: true
 ---
 
