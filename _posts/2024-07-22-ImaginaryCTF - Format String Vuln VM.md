@@ -1,8 +1,8 @@
 ---
 layout: post
-title: ImaginaryCTF 2024 - SVM Revenge
-subtitle: custom encryptor
-tags: [reverse, crypto]
+title: ImaginaryCTF 2024 - Printf
+subtitle: format string vulnerability vm
+tags: [reverse, vm, formatstring]
 comments: true
 ---
 
